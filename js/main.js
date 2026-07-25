@@ -1,4 +1,5 @@
 window.addEventListener("load", Setup_Game);
+document.getElementById("submit").addEventListener("click", Get_Results);
 
 function Setup_Game()
 {
