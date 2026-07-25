@@ -39,3 +39,8 @@ main
 {
     background-color: lightsalmon;
 }
+
+.hidden
+{
+    display: none;
+}
