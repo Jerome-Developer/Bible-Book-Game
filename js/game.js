@@ -37,6 +37,8 @@ function Book_Clicked(event)
             [caller.textContent, Second_Book.textContent] = [Second_Book.textContent, caller.textContent];
             Second_Book.classList.toggle("selected");
 
+            /* track move count? */
+
             caller.classList.remove("correct");
             caller.classList.remove("incorrect");
             Second_Book.classList.remove("correct");
