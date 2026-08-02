@@ -53,6 +53,36 @@ main
     display: none;
 }
 
+#start-menu
+{
+    position: absolute;
+    background-color: burlywood;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 20px;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    max-width: 85%;
+    box-sizing: border-box;
+}
+
+#completion-menu
+{
+    position: absolute;
+    background-color: cadetblue;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 20px;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    max-width: 85%;
+    box-sizing: border-box;
+}
+
 /* Make some colors for the buttons */
 
 /* Dark Mode + Light Mode */
