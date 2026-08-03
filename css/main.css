@@ -53,6 +53,14 @@ main
     display: none;
 }
 
+#review-order-container > div
+{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .screen-lock
 {
     max-height: 100vh;
