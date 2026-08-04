@@ -53,6 +53,10 @@ main
     display: none;
 }
 
+#book-container.hidden
+{
+    display: none;
+}
 #review-order-container > div
 {
     background-color: lightblue;
