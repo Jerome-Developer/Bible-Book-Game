@@ -13,4 +13,8 @@ function Setup_Game()
 function Hide_Start_Menu()
 {
     document.getElementById("start-menu").style.display = "none";
+function Hide_Review_Order()
+{
+    document.getElementById("review-order").classList.add("hidden");
+}
 }
